@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/car-service-frontend/static/css/main.2de1adf4.css",
-    "main.js": "/car-service-frontend/static/js/main.b79c6771.js",
+    "main.js": "/car-service-frontend/static/js/main.bd78d13d.js",
     "index.html": "/car-service-frontend/index.html",
     "main.2de1adf4.css.map": "/car-service-frontend/static/css/main.2de1adf4.css.map",
-    "main.b79c6771.js.map": "/car-service-frontend/static/js/main.b79c6771.js.map"
+    "main.bd78d13d.js.map": "/car-service-frontend/static/js/main.bd78d13d.js.map"
   },
   "entrypoints": [
     "static/css/main.2de1adf4.css",
-    "static/js/main.b79c6771.js"
+    "static/js/main.bd78d13d.js"
   ]
 }
