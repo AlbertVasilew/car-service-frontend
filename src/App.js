@@ -1,16 +1,20 @@
 import { Outlet } from 'react-router-dom';
-import { Box } from '@mui/material';
+import { Box, ThemeProvider, createTheme } from '@mui/material';
 
 import Menu from './components/Menu';
+
+import theme from './styles/theme';
 import './styles/App.css';
 
-const App = () => {
-    return (
+const App = () => (
+    <ThemeProvider theme={createTheme(theme)}>
         <Box className="application-wrapper">
             <Menu />
-            <Outlet />
+            <Box className="page-container">
+                <Outlet />
+            </Box>
         </Box>
-    )
-}
+    </ThemeProvider>
+)
 
 export default App;

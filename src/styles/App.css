@@ -7,6 +7,11 @@ body {
     min-height: 100vh;
 }
 
+.page-container {
+    flex: 1;
+    padding: 40px;
+}
+
 .menu-container {
     background-color: #D3D3D3;
     height: 100%;
@@ -20,4 +25,36 @@ body {
 
 .menu-container__item.active {
     background-color: #FFF;  
+}
+
+.list-page-container {
+
+}
+
+.list-page-container__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.list-page-container__title {
+    font-weight: bold !important;
+    font-size: 30px !important; 
+}
+
+.list-page-container__add-button {
+    border-radius: 20px !important;
+    text-transform: none !important;
+    padding: 5px 30px !important;
+}
+
+.list-page-container__table-cell {
+    border: 0 !important;
+}
+
+.list-page-container__table-cell--header {
+    border-top: 1px solid #D3D3D3;
+    border-bottom: 1px solid #D3D3D3 !important;
+    font-weight: bold !important;
 }
